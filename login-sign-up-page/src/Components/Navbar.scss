@@ -1,0 +1,20 @@
+nav{
+  border: 1px solid gray;
+  border-radius: 5px;
+  overflow: auto;
+  .navList{
+    float :right;
+    list-style-type: none;
+    margin: 10px;
+    .navElement{
+      float :left;
+      padding: 10px 5px;
+      &:last-child{
+        border-left: 1px solid gray;
+      }
+    }
+  }
+}
+.body{
+  clear:both;
+}
